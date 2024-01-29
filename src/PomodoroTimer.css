@@ -1,0 +1,83 @@
+/* PomodoroTimer.css */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  
+  .pomodoro-timer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    
+  }
+  
+  .timer-display {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .timer-controls.reset{
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .timer-controls.reset:hover{
+    background-color: #c6b0b0;
+  }
+  .timer-controls button {
+    background-color:  rgb(94, 199, 240);;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .timer-controls button.active {
+    background-color: #ff5252; /* Red color for Start/Pause button when active (running) */
+  }
+  .custom-time-input {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  .custom-time-input button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .custom-time-input label {
+    font-size: 1.2em;
+    cursor: pointer;
+   
+  }
+
+  .custom-time-input input {
+    font-size: 1em;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+  }
+ 
